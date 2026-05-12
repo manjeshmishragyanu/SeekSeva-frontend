@@ -2,7 +2,7 @@
   "name": "seekseva",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,6 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
@@ -26,5 +32,18 @@
   },
   "overrides": {
     "vite": "^8.0.0-beta.13"
-  }
+  },
+  "description": "SeekSeva is a full stack platform where users can find people to help with daily tasks and services.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manjeshmishragyanu/seekseva.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manjeshmishragyanu/seekseva/issues"
+  },
+  "homepage": "https://github.com/manjeshmishragyanu/seekseva#readme"
 }
