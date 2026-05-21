@@ -19,7 +19,7 @@ const [workers, setWorkers] = useState([])
 
 useEffect(() =>{
   if(!isLoggedIn) return
-  fetch("https://seekseva-backend.onrender.com", {
+  fetch("https://seekseva-backend.onrender.com/worker", {
     headers: {
       "Authorization": "Bearer " + localStorage.getItem("token")
     }
